@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#15803d" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%2315803d'/%3E%3Cpath d='M10 21c0-6 5-10 12-10-1 7-5 11-11 11' fill='none' stroke='white' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E" />
+    <title>SıfırTabak · Akıllı israf takibi</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      // Dosyaya çift tıklanarak açıldıysa (file://) derlenmiş hazır sürüme yönlendir.
+      if (location.protocol === 'file:') location.replace('hazir/index.html' + location.hash);
+    </script>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
